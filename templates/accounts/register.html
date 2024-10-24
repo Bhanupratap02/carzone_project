@@ -6,7 +6,7 @@
 {% block content %}
 
 <!-- Contact section start -->
- <div class="sub-banner overview-bgi">
+ {% comment %} <div class="sub-banner overview-bgi">
     <div class="container breadcrumb-area">
         <div class="breadcrumb-areas">
             <h1>Create an account</h1>
@@ -16,7 +16,8 @@
             </ul>
         </div>
     </div>
-</div>
+</div> {% endcomment %}
+{% include "includes/banner.html" with title="Create an account" active='Register' %}
 <!-- Sub Banner end -->
 <div class="contact-section">
     <div class="container">

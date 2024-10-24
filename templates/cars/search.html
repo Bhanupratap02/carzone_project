@@ -3,17 +3,8 @@
 {% block title %}| Search Result {% endblock %}
 {% block content %}
 <!-- Banner start -->
-<div class="sub-banner overview-bgi">
-    <div class="container breadcrumb-area">
-        <div class="breadcrumb-areas">
-            <h1>Search Results</h1>
-            <ul class="breadcrumbs">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Search</li>
-            </ul>
-        </div>
-    </div>
-</div>
+
+{% include "includes/banner.html" with title='Search Results' active='Search' %}
 <!-- Banner end -->
 
 <!-- Search box 3 start -->

@@ -5,7 +5,7 @@
 {% block title %}| Login {% endblock %}
 {% block content %}
 
-<div class="sub-banner overview-bgi">
+{% comment %} <div class="sub-banner overview-bgi">
     <div class="container breadcrumb-area">
         <div class="breadcrumb-areas">
             <h1>Login To Your Account</h1>
@@ -15,7 +15,11 @@
             </ul>
         </div>
     </div>
-</div>
+</div> {% endcomment %}
+<!-- Sub banner start -->
+{% include "includes/banner.html" with title="Login To Your Account" active='Login' %}
+<!-- Sub Banner end -->
+
 <!-- Sub Banner end -->
 
 <!-- Contact section start -->

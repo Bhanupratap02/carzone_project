@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'pages',
     'cars',
     'accounts',
+    'contacts',
     'ckeditor',
     'multiselectfield',
     'allauth',
@@ -179,5 +180,12 @@ MESSAGE_TAGS = {
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
+
+# Email sending
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = '###'
+# EMAIL_HOST_PASSWORD = '#####'
+# EMAIL_USE_TLS = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
