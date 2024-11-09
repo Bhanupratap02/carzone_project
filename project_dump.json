@@ -1,0 +1,852 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$K59RBOXyePxbt0NHs2D8Ah$peERsU52HIGK6C0NOmpY4WkW31OhwwDkmEqh51WRKAI=",
+        "last_login": "2024-10-24T14:39:41.887Z",
+        "is_superuser": true,
+        "username": "sachin",
+        "first_name": "Sachin",
+        "last_name": "Kumar",
+        "email": "bhanupratapbehera193@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-10-17T09:20:32Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$SugVtBOkAoWJbu3zl23C3u$MK4LqX59w9i+h9f+gsrrfcrMZR8/LtREH0XdxqAic2w=",
+        "last_login": "2024-10-24T10:44:41.731Z",
+        "is_superuser": false,
+        "username": "Joey",
+        "first_name": "Joey",
+        "last_name": "Tribianni",
+        "email": "Joey@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-22T09:48:17.825Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!3TFUNhqiOqPlDVpFZS2CiDEUM0XWRJ1C9f1l8ErX",
+        "last_login": "2024-10-23T19:43:08.670Z",
+        "is_superuser": false,
+        "username": "bhanu_pratap",
+        "first_name": "Bhanu pratap",
+        "last_name": "Behera",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-23T19:40:30.713Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "88o0ktryop749otlp6kgau1jwggsny4l",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyEFWlg8eu83EJbdStVAUtqT8d9tkx50jvPezFuEuK05bI2XMJO4Ci0uvx3G9ORyAHrEcq8y1bIuM8pDkSdtcqzEr9vp_h3k2PK-jilx39vJGiCD5CfEAUA56rxjjR7IJbsHOqW9SxoIDSswNETWZJT4fAH0Jzfr:1t3vKb:A6dYxwK93Wgbeq-0kUjKBxz0wze6O13d5p4yPMe5AEY",
+        "expire_date": "2024-11-07T10:44:41.733Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8t0g3d0skp9im1ygre272p11mbz52jxn",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBiGUpduvcMZGYYpGogKe3KeHdD0oVu33v_v1XAfcthb7KGJaqLMur0ywj5KaWL-MByr5pr2daFdE_0YZu-1Siv69H-HWRsua8t25Ro9sIwjxBRxEeLMEln1hMkdn4aIII9kx8gORKyLGKMAxnV5wsUdTjh:1t2yH7:sFXUhDHtAw1wozk2LNIr2XJLixAdAH7ExXLMZ_Ifzpg",
+        "expire_date": "2024-11-04T19:41:09.641Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "o46b613z6ufespmrio8u9hfxzn1mh2xu",
+    "fields": {
+        "session_data": ".eJxVjrtuhDAQRf9lagQYbGwoN12y6SNFEfJjeGQte2WbTSTEvwckUmx7zz0zd4Xo9Syt1NovLvUxyYQRuhVGfl2q6499ebxSSt4-oPtc4R68xrhzsH6cHWRgZJLQucXaDO43jb32BvsHhnmYMfwTh79pl4rzTSyMjJPyMpgCtozwquWi5LzMCa2rVpCvLYNeLmnql4ihn80uE3jKlNQ3dAcw39KNPtfepTCr_KjkJ435-z7HXs7u04Fpn3DYVNNhUK1AzdqaGYkoDJWM45FRodigG8FLZhitlCjZ0ChUVCMS0jCsYfsDIwJruQ:1t3z01:__oKpzmZkMKc6Z2Ae72B5_QcxgsCCCET-q-FikmoK9w",
+        "expire_date": "2024-11-07T14:39:41.888Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "http://localhost:8000/",
+        "name": "http://localhost:8000/"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "CEO and Founder",
+        "photo": "photos/2024/10/17/avatar-1.jpg",
+        "facebook_link": "http://www.instragram.com",
+        "twitter_link": "http://www.instragram.com",
+        "google_plus_link": "http://www.instragram.com",
+        "created_date": "2024-10-17T17:11:00.471Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2024/10/17/avatar-2.jpg",
+        "facebook_link": "http://www.instragram.com",
+        "twitter_link": "http://www.instragram.com",
+        "google_plus_link": "http://www.instragram.com",
+        "created_date": "2024-10-17T17:11:52.510Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "CFO and Co-Founder",
+        "photo": "photos/2024/10/17/avatar-12.jpg",
+        "facebook_link": "http://www.instragram.com",
+        "twitter_link": "http://www.instragram.com",
+        "google_plus_link": "http://www.instragram.com",
+        "created_date": "2024-10-17T17:12:48.092Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2024/10/17/avatar-9.jpg",
+        "facebook_link": "http://www.instragram.com",
+        "twitter_link": "http://www.instragram.com",
+        "google_plus_link": "http://www.instragram.com",
+        "created_date": "2024-10-17T17:15:13.171Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Markus",
+        "last_name": "Cooper",
+        "designation": "Managing Director",
+        "photo": "photos/2024/10/17/avatar-3.jpg",
+        "facebook_link": "http://www.instragram.com",
+        "twitter_link": "http://www.instragram.com",
+        "google_plus_link": "http://www.instragram.com",
+        "created_date": "2024-10-17T17:17:47.176Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "KS",
+        "city": "Austin",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 39998,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\">[8]</a></p>",
+        "car_photo": "photos/2024/10/18/1902536891.jpg",
+        "car_photo_1": "photos/2024/10/18/1902536917.jpg",
+        "car_photo_2": "photos/2024/10/18/1902537043.jpg",
+        "car_photo_3": "photos/2024/10/18/1902537077.jpg",
+        "car_photo_4": "photos/2024/10/18/1902537082.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "3.9 L V8",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 10000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "ZFF79ALA6H0220819",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2024-10-18T08:10:57Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "CO",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "used",
+        "price": 24997,
+        "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUV</a>&nbsp;manufactured and marketed by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;introduced for the 2007 model year as the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America; now in its third generation. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is positioned between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>\r\n\r\n<p>Sharing its underpinnings with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)\" title=\"Ford Fusion (Americas)\">Ford Fusion sedan</a>, Ford has also marketed a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Badge_engineering\" title=\"Badge engineering\">rebadged</a>&nbsp;variant as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lincoln_MKX\" title=\"Lincoln MKX\">Lincoln MKX</a>&nbsp;(since 2019, the Lincoln Nautilus). The second generation is also marketed by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_of_Europe\" title=\"Ford of Europe\">Ford of Europe</a>, positioned between the Kuga (Escape) and the Explorer PHEV.</p>\r\n\r\n<p>Manufacturing of both generations takes place at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Oakville_Assembly\" title=\"Oakville Assembly\">Oakville Assembly</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Oakville,_Ontario\" title=\"Oakville, Ontario\">Oakville, Ontario</a>) alongside the Nautilus.</p>\r\n\r\n<p>The third generation launched in 2023 is called the Edge L, and was first produced and sold exclusively in China.</p>",
+        "car_photo": "photos/2024/10/18/1901478607.jpg",
+        "car_photo_1": "photos/2024/10/18/1901478618.jpg",
+        "car_photo_2": "photos/2024/10/18/1901478646.jpg",
+        "car_photo_3": "photos/2024/10/18/1901478672.jpg",
+        "car_photo_4": "photos/2024/10/18/1901478687.jpg",
+        "features": "Airbags,Air Conditioning,Seat Heating,Power Steering,Direct Fuel Injection,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.9 L V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "ZFF79AGA6H0220816",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2024-10-18T08:19:57Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "NY",
+        "city": "Ohio",
+        "color": "Black",
+        "model": "F-250 Super Duty",
+        "year": 2017,
+        "condition": "Used",
+        "price": 16998,
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(also known as the&nbsp;<strong>Ford F-Series Super Duty</strong>) is a series of heavy-duty pickup trucks produced by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;since the 1999 model year. Slotted above the consumer-oriented Ford&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">F-150</a>, the Super Duty trucks are an expansion of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">Ford F-Series</a>&nbsp;range, from F-250 to the F-600. The F-250 through F-450 are offered as pickup trucks, while the F-350 through F-600 are offered as&nbsp;<a href=\"https://en.wikipedia.org/wiki/Chassis_cab\" title=\"Chassis cab\">chassis cabs</a>.</p>\r\n\r\n<p>Rather than adapting the lighter-duty F-150 truck for heavier use, Super Duty trucks have been designed as a dedicated variant of the Ford F-Series. The heavier-duty chassis components allow for heavier payloads and towing capabilities. With a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Gross_vehicle_weight_rating\" title=\"Gross vehicle weight rating\">GVWR</a>&nbsp;over 8,500&nbsp;lb (3,900&nbsp;kg), Super Duty pickups are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truck_classification\" title=\"Truck classification\">Class 2 and 3</a>&nbsp;trucks, while chassis-cab trucks are offered in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truck_classification\" title=\"Truck classification\">Classes 3, 4, 5, and 6</a>. The model line also offers&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Power_Stroke_engine\" title=\"Ford Power Stroke engine\">Ford Power Stroke</a>&nbsp;V8 diesel engines as an option.</p>\r\n\r\n<p>Ford also offers a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series_(medium-duty_truck)\" title=\"Ford F-Series (medium-duty truck)\">medium-duty version of the F-Series</a>&nbsp;(F-650 and F-750), which is sometimes branded as the Super Duty, but is another chassis variant. The Super Duty pickup truck also served as the basis for the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Excursion\" title=\"Ford Excursion\">Ford Excursion</a>&nbsp;full-sized SUV.</p>\r\n\r\n<p>The Super Duty trucks and chassis-cabs are assembled at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kentucky_Truck_Assembly\" title=\"Kentucky Truck Assembly\">Kentucky Truck Plant</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Louisville,_Kentucky\" title=\"Louisville, Kentucky\">Louisville, Kentucky</a>, and at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ohio_Assembly\" title=\"Ohio Assembly\">Ohio Assembly</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Avon_Lake,_Ohio\" title=\"Avon Lake, Ohio\">Avon Lake, Ohio</a>. Prior to 2016, medium-duty trucks were assembled in Mexico under the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Navistar_International#Blue_Diamond_Truck\" title=\"Navistar International\">Blue Diamond Truck</a>&nbsp;joint venture with Navistar International.</p>",
+        "car_photo": "photos/2024/10/18/1894300894.jpg",
+        "car_photo_1": "photos/2024/10/18/1894300905.jpg",
+        "car_photo_2": "photos/2024/10/18/1894300920.jpg",
+        "car_photo_3": "photos/2024/10/18/1900155012.jpg",
+        "car_photo_4": "photos/2024/10/18/1900155133.jpg",
+        "features": "Cruise Control,Audio Interface,Air Conditioning,Alarm System,Power Steering,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.9 L V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 17002,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "ZFF79AGA6H0220815",
+        "milage": 8,
+        "fuel_type": "Deisel",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2024-10-18T08:26:26Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "CT",
+        "city": "Austin",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": 21000,
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_SUV\" title=\"Crossover SUV\">crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Car_manufacturer\" title=\"Car manufacturer\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_marque\" title=\"Jaguar marque\">Jaguar marque</a>. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_North_American_International_Auto_Show\" title=\"2015 North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_International_Motor_Show_Germany\" title=\"2015 International Motor Show Germany\">2015 International Motor Show Germany</a>&nbsp;in Frankfurt.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-5\">[5]</a></p>\r\n\r\n<p>The design of the F-Pace is based on the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17</a>&nbsp;concept car, which was unveiled on September 9, 2013, at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/International_Motor_Show_Germany\" title=\"International Motor Show Germany\">Frankfurt Motor Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-6\">[6]</a><a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-7\">[7]</a>&nbsp;The 2017 Jaguar F-Pace has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-8\">[8]</a><a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-9\">[9]</a>&nbsp;The F-Pace is built at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Solihull_plant\" title=\"Solihull plant\">Solihull plant</a>&nbsp;along with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Range_Rover_Velar\" title=\"Range Rover Velar\">Range Rover Velar</a>&nbsp;and employs an additional 1,300 workers.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-6\">[6]</a></p>",
+        "car_photo": "photos/2024/10/18/1902932503.jpg",
+        "car_photo_1": "photos/2024/10/18/1902932514.jpg",
+        "car_photo_2": "photos/2024/10/18/1902932528.jpg",
+        "car_photo_3": "photos/2024/10/18/1902932542.jpg",
+        "car_photo_4": "",
+        "features": "Audio Interface,Air Conditioning,Seat Heating,ParkAssist,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.9 L V7",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 7000,
+        "doors": "5",
+        "passengers": 2,
+        "vin_no": "ZFF79ALA6H0220819",
+        "milage": 7,
+        "fuel_type": "Deisel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2024-10-18T08:30:41Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "CA",
+        "city": "Los Angeles",
+        "color": "White",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": 34998,
+        "description": "<p>The&nbsp;<strong>Toyota 4Runner</strong>&nbsp;is an&nbsp;<a href=\"https://en.wikipedia.org/wiki/SUV\" title=\"SUV\">SUV</a>&nbsp;manufactured by the Japanese automaker&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a>&nbsp;and marketed globally since 1984, across six generations. In Japan, it was marketed as the&nbsp;<strong>Toyota Hilux Surf</strong>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Japanese_language\" title=\"Japanese language\">Japanese</a>:&nbsp;トヨタ・ハイラックスサーフ,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hepburn_romanization\" title=\"Hepburn romanization\">Hepburn</a>:&nbsp;<em>Toyota Hairakkususāfu</em>)&nbsp;and was withdrawn from the market in 2009. The original 4Runner was a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_SUV\" title=\"Compact SUV\">compact SUV</a>&nbsp;and little more than a Toyota&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Hilux\" title=\"Toyota Hilux\">Hilux</a>&nbsp;pickup truck with a fiberglass shell over the bed, but the model has since undergone significant independent development into a cross between a compact and a mid-size SUV. All 4Runners have been built in Japan at Toyota&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara_plant\" title=\"Tahara plant\">plant</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara,_Aichi\" title=\"Tahara, Aichi\">Tahara, Aichi</a>, or at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hino_Motors\" title=\"Hino Motors\">Hino Motors</a>&nbsp;(a Toyota subsidiary) plant in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hamura\" title=\"Hamura\">Hamura</a>.</p>\r\n\r\n<p>The name &quot;4Runner&quot; was created by copywriter Robert Nathan with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Saatchi_%26_Saatchi\" title=\"Saatchi &amp; Saatchi\">Saatchi &amp; Saatchi</a>&nbsp;advertising company as a play on the term &quot;forerunner&quot;. The agency held contests to invent new names for Toyota&#39;s forthcoming vehicles. According to Toyota, the &quot;4&quot; described the vehicle&#39;s 4-wheel drive system while &quot;Runner&quot; was a reference to its all-terrain capabilities and how it could &quot;run&quot; off-road.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-1\">[1]</a></p>\r\n\r\n<p>For some markets, the Hilux Surf was replaced in 2005 by the lower cost but similar&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Fortuner\" title=\"Toyota Fortuner\">Fortuner</a>, which is based on the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Hilux\" title=\"Toyota Hilux\">Hilux</a>&nbsp;platform.</p>\r\n\r\n<p>As of 2021, the 4Runner is marketed in the Bahamas, Bolivia, Canada, Chile, Colombia, Costa Rica, El Salvador, Guatemala, Panama, Peru, the United States and Venezuela. Many markets that did not receive the 4Runner, such as Europe and the Middle East, instead received the similarly designed&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado\" title=\"Toyota Land Cruiser Prado\">Land Cruiser Prado</a>, another SUV that shared many of the same components.</p>\r\n\r\n<p>The 4Runner came in at number five in a 2019 study by&nbsp;<a href=\"https://en.wikipedia.org/wiki/ISeeCars.com\" title=\"ISeeCars.com\">iSeeCars.com</a>&nbsp;ranking the longest-lasting vehicles in the US. The 4Runner had 3.9&nbsp;percent of vehicles over 200,000 miles (320,000&nbsp;km), according to the study.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-2\">[2]</a></p>\r\n\r\n<h2>Predecessor: Toyota Trekker (N30; 1981&ndash;1983)</h2>\r\n\r\n<p>[<a href=\"https://en.wikipedia.org/w/index.php?title=Toyota_4Runner&amp;action=edit&amp;section=1\" title=\"Edit section: Predecessor: Toyota Trekker (N30; 1981–1983)\">edit</a>]</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Toyota Trekker</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"2\"><a href=\"https://en.wikipedia.org/wiki/File:1981_Toyota_Trekker_in_Medium_Blue,_rear_right.jpg\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/1981_Toyota_Trekker_in_Medium_Blue%2C_rear_right.jpg/280px-1981_Toyota_Trekker_in_Medium_Blue%2C_rear_right.jpg\" style=\"height:210px; width:280px\" /></a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Overview</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Manufacturer</th>\r\n\t\t\t<td>\r\n\t\t\t<ul>\r\n\t\t\t\t<li><a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a></li>\r\n\t\t\t\t<li>Conversion by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Winnebago_Industries\" title=\"Winnebago Industries\">Winnebago</a></li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Car_model#Model_code\" title=\"Car model\">Model code</a></th>\r\n\t\t\t<td>N30</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Production</th>\r\n\t\t\t<td>1981&ndash;1983</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Assembly</th>\r\n\t\t\t<td>United States:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Forest_City,_Iowa\" title=\"Forest City, Iowa\">Forest City, Iowa</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Winnebago_Industries\" title=\"Winnebago Industries\">Winnebago</a>)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Body and chassis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Car_body_style\" title=\"Car body style\">Body&nbsp;style</a></th>\r\n\t\t\t<td>2-door&nbsp;<a href=\"https://en.wikipedia.org/wiki/Pickup_truck\" title=\"Pickup truck\">pickup</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Related</th>\r\n\t\t\t<td><a href=\"https://en.wikipedia.org/wiki/Toyota_Hilux_(N30)\" title=\"Toyota Hilux (N30)\">Toyota Hilux/Pickup (N30/N40)</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Powertrain</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Engine\" title=\"Engine\">Engine</a></th>\r\n\t\t\t<td>\r\n\t\t\t<ul>\r\n\t\t\t\t<li><strong><a href=\"https://en.wikipedia.org/wiki/Petrol_engine\" title=\"Petrol engine\">Gasoline</a>:</strong></li>\r\n\t\t\t\t<li>2.4&nbsp;L&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Toyota_R_engine#22R\" title=\"Toyota R engine\">22R</a></em>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Straight-four_engine\" title=\"Straight-four engine\">I4</a>&nbsp;(RN38)</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Power&nbsp;output</th>\r\n\t\t\t<td>96&ndash;100&nbsp;hp (72&ndash;75&nbsp;kW)<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Trekker81-3\">[3]</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Transmission_(mechanical_device)\" title=\"Transmission (mechanical device)\">Transmission</a></th>\r\n\t\t\t<td>5-speed&nbsp;<em>L52</em>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Manual_transmission\" title=\"Manual transmission\">manual</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Dimensions</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Wheelbase\" title=\"Wheelbase\">Wheelbase</a></th>\r\n\t\t\t<td>102.2&nbsp;in (2,595&nbsp;mm)<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Trekker81-3\">[3]</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Length</th>\r\n\t\t\t<td>170.1&nbsp;in (4,320&nbsp;mm)<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Trekker81-3\">[3]</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Width</th>\r\n\t\t\t<td>66.5&nbsp;in (1,690&nbsp;mm)<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Trekker81-3\">[3]</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Height</th>\r\n\t\t\t<td>65.9&nbsp;in (1,675&nbsp;mm)<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Trekker81-3\">[3]</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Curb_weight\" title=\"Curb weight\">Curb&nbsp;weight</a></th>\r\n\t\t\t<td>3,120&nbsp;lb (1,415&nbsp;kg)<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Trekker81-3\">[3]</a></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Toyota had partnered with third-party&nbsp;<a href=\"https://en.wikipedia.org/wiki/Recreational_vehicle\" title=\"Recreational vehicle\">recreational vehicle</a>&nbsp;manufacturers at least as early as 1973, when a Chinook Mobilodge-built&nbsp;<a href=\"https://en.wikipedia.org/wiki/Popup_camper\" title=\"Popup camper\">popup</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truck_camper\" title=\"Truck camper\">truck camper</a>&nbsp;was paired with the longbed Toyota truck chassis and sold as a less expensive, more economical alternative to larger motorhomes.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-4\">[4]</a>&nbsp;In the Chinook conversion, the bed and rear wall of the cab were removed and a fiberglass popup shell was added, allowing occupants to walk through from the motorhome section to the cab.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-5\">[5]</a></p>\r\n\r\n<p><a href=\"https://en.wikipedia.org/wiki/File:1974_Toyota_HiLux_Chinook_Weekender_RV_(26647622933).jpg\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/1974_Toyota_HiLux_Chinook_Weekender_RV_%2826647622933%29.jpg/220px-1974_Toyota_HiLux_Chinook_Weekender_RV_%2826647622933%29.jpg\" style=\"height:146px; width:220px\" /></a></p>\r\n\r\n<p>1974 Hilux/Chinook</p>\r\n\r\n<p>The Trekker was a similar &quot;walk-through&quot; third-party conversion of the short-bed Toyota Hilux truck, built by Winnebago Industries from 1981 to 1983. Winnebago removed the rear wall and added a bench seat in the bed, protecting these occupants by a permanently-fixed fiberglass shell;<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-6\">[6]</a>&nbsp;in concept, it was similar to the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Chevrolet_K5_Blazer\" title=\"Chevrolet K5 Blazer\">Chevrolet K5 Blazer</a>. The Trekker competed with similar third-party limited production Toyota conversions including the Breaker-Breaker and Trailblazer.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-7\">[7]</a>&nbsp;The Trekker was discontinued in 1984 once Toyota started producing and selling the 4Runner SUV; these third-party conversions had in essence acted as marketing test vehicles for the 4Runner.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-8\">[8]</a><a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-9\">[9]</a></p>\r\n\r\n<h3>Production</h3>\r\n\r\n<p>[<a href=\"https://en.wikipedia.org/w/index.php?title=Toyota_4Runner&amp;action=edit&amp;section=2\" title=\"Edit section: Production\">edit</a>]</p>\r\n\r\n<p>After the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J40)\" title=\"Toyota Land Cruiser (J40)\">Land Cruiser FJ40</a>&nbsp;was discontinued, Jack Safro, who operated a Toyota dealer in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Brookfield,_Wisconsin\" title=\"Brookfield, Wisconsin\">Brookfield, Wisconsin</a>, approached Winnebago with the idea to convert the Hilux into a four-passenger vehicle as a potential replacement.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-10\">[10]</a>&nbsp;The resulting Trekker was produced from early 1981 through 1983. In total, approximately 1200&ndash;1500 Trekkers were built and sold in the United States, with many shipped to Colorado.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-TOR-Trekker-11\">[11]</a>&nbsp;An additional unknown number of Trekker kits, likely less than 200, were shipped to Canada to be installed on Canadian trucks at the dealerships. 20 to 30 of the Trekker kits were sold and shipped to Saudi Arabia for installation.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-TOR-Trekker-11\">[11]</a></p>\r\n\r\n<p>Toyota shipped all trucks from Japan as cab and chassis in order to avoid the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Chicken_tax\" title=\"Chicken tax\">25% assembled truck customs tax</a>. All Trekkers were built on the short wheelbase&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Hilux\" title=\"Toyota Hilux\">Hilux</a>&nbsp;chassis. The trucks destined for production as Trekkers were shipped to the dealership handling the national distribution of the Trekker. From there they went to Winnebago to have the Trekker conversion installed, returned after completion to the dealership for national distribution. Most of the Trekker conversions sold went to the west coast of the United States.</p>\r\n\r\n<h3>Specifications</h3>\r\n\r\n<p>[<a href=\"https://en.wikipedia.org/w/index.php?title=Toyota_4Runner&amp;action=edit&amp;section=3\" title=\"Edit section: Specifications\">edit</a>]</p>\r\n\r\n<p>The Trekker conversion involved removing the bed and rear cab wall from the donor truck, then replacing them with a fiberglass tub, bed sides, a non-removable canopy and rear hatch.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Truckin-81-12\">[12]</a>&nbsp;The kit included a folding rear seat that could be folded forward to lay flat and add cargo space to the back. There was no tailgate on the Trekkers. The factory Toyota vinyl cab headliner was replaced and matched to the custom rear canopy headliner. Suggested retail price in 1981 was&nbsp;US$13,000&nbsp;(equivalent to $44,000 in 2023).<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Truckin-81-12\">[12]</a></p>\r\n\r\n<p>All Trekkers were given the SR5 trim designation by both Winnebago and Toyota, regardless of the actual VIN denotation. Originally there were to be Deluxe (Model 7141) and Deluxe SR5 (Model 7147) versions of the Trekker; the SR5 was to be equipped with a 5-speed manual transmission, vented canopy windows, and a more finished rear interior than the Deluxe, which was to be equipped with a 4-speed manual and fixed windows.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Trekker81-3\">[3]</a><a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Truckin-81-12\">[12]</a>&nbsp;Regardless of trim level, all 1981 Trekkers had vented canopy windows. Non-vented canopy windows were installed on the Trekker for the 1982 model year (again, regardless of trim level) because the forward-facing vent windows on the 1981 Trekkers developed leaks.</p>\r\n\r\n<p>As tested by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truckin%27_Magazine\" title=\"Truckin' Magazine\"><em>Truckin&#39;</em></a>&nbsp;in 1981, the observed fuel consumption was 19.3&nbsp;mpg‑US&nbsp;(12.2&nbsp;L/100&nbsp;km) in combined (city and highway) driving, dropping to 17.4&nbsp;mpg‑US&nbsp;(13.5&nbsp;L/100&nbsp;km) with off-road use. The enclosed cargo area was 60&nbsp;cu&nbsp;ft (1.7&nbsp;m3) with the rear bench folded.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-Truckin-81-12\">[12]</a></p>",
+        "car_photo": "photos/2024/10/20/1893633875.jpg",
+        "car_photo_1": "photos/2024/10/20/1893633879.jpg",
+        "car_photo_2": "photos/2024/10/20/1893633884.jpg",
+        "car_photo_3": "photos/2024/10/20/1896836883.jpg",
+        "car_photo_4": "photos/2024/10/20/1896836887.jpg",
+        "features": "Cruise Control,Air Conditioning,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "4.0L V6",
+        "transmission": "Automatic",
+        "interior": "Black Leather",
+        "miles": 45000,
+        "doors": "5",
+        "passengers": 2,
+        "vin_no": "JTEBU5JR6J1234567",
+        "milage": 18,
+        "fuel_type": "Gasoline",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2024-10-20T08:20:40Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "NY",
+        "city": "New York City",
+        "color": "Silver",
+        "model": "Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": 17997,
+        "description": "<p>For the car sold as the Toyota Corolla Tercel and Corolla II in some areas, see&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Tercel\" title=\"Toyota Tercel\">Toyota Tercel</a>.</p>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Toyota Corolla</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"2\"><a href=\"https://en.wikipedia.org/wiki/File:Toyota_Corolla_Hybrid_(E210)_IMG_4338.jpg\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Toyota_Corolla_Hybrid_%28E210%29_IMG_4338.jpg/280px-Toyota_Corolla_Hybrid_%28E210%29_IMG_4338.jpg\" style=\"height:141px; width:280px\" /></a>\r\n\t\t\t<p>Twelfth generation model (2020, hatchback)</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Overview</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Manufacturer</th>\r\n\t\t\t<td><a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Also&nbsp;called</th>\r\n\t\t\t<td>\r\n\t\t\t<ul>\r\n\t\t\t\t<li><a href=\"https://en.wikipedia.org/wiki/Toyota_Sprinter\" title=\"Toyota Sprinter\">Toyota Sprinter</a>&nbsp;(Japan, 1968&ndash;2000)</li>\r\n\t\t\t\t<li>Toyota Allex (Japan, 2001&ndash;2006)</li>\r\n\t\t\t\t<li><a href=\"https://en.wikipedia.org/wiki/Toyota_Auris\" title=\"Toyota Auris\">Toyota Auris</a>&nbsp;(Japan and Europe, 2006&ndash;2018; Taiwan, 2018&ndash;2020)</li>\r\n\t\t\t\t<li>Toyota Levin (China, 2014&ndash;present)</li>\r\n\t\t\t\t<li>Toyota Allion (China, 2021&ndash;present)</li>\r\n\t\t\t\t<li>Toyota Conquest/Tazz/Carri (South Africa, 1988&ndash;2006)</li>\r\n\t\t\t\t<li><a href=\"https://en.wikipedia.org/wiki/Daihatsu_Charmant\" title=\"Daihatsu Charmant\">Daihatsu Charmant</a>&nbsp;(1974&ndash;1987)</li>\r\n\t\t\t\t<li><a href=\"https://en.wikipedia.org/wiki/Holden_Nova\" title=\"Holden Nova\">Holden Nova</a>&nbsp;(Australia, 1989&ndash;1996)</li>\r\n\t\t\t\t<li>Suzuki Swace (Europe, 2020&ndash;present)</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Production</th>\r\n\t\t\t<td>November 1966 &ndash; present</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Body and chassis</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\"><a href=\"https://en.wikipedia.org/wiki/Car_classification\" title=\"Car classification\">Class</a></th>\r\n\t\t\t<td>\r\n\t\t\t<ul>\r\n\t\t\t\t<li><a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">Subcompact car</a>&nbsp;(1966&ndash;1991)</li>\r\n\t\t\t\t<li><a href=\"https://en.wikipedia.org/wiki/Compact_car\" title=\"Compact car\">Compact car</a>&nbsp;(1991&ndash;present)</li>\r\n\t\t\t</ul>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th colspan=\"2\">Chronology</th>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<th scope=\"row\">Predecessor</th>\r\n\t\t\t<td><a href=\"https://en.wikipedia.org/wiki/Toyota_Publica\" title=\"Toyota Publica\">Toyota Publica</a></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>The&nbsp;<strong>Toyota Corolla</strong>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Japanese_language\" title=\"Japanese language\">Japanese</a>:&nbsp;トヨタ・カローラ,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hepburn_romanization\" title=\"Hepburn romanization\">Hepburn</a>:&nbsp;<em>Toyota Karōra</em>)&nbsp;is a series of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_car\" title=\"Compact car\">compact cars</a>&nbsp;(formerly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">subcompact</a>) manufactured and marketed globally by the Japanese automaker&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Motor_Corporation\" title=\"Toyota Motor Corporation\">Toyota Motor Corporation</a>. Introduced in 1966, the Corolla was the best-selling car worldwide by 1974 and has been one of the best-selling cars in the world since then. In 1997, the Corolla became the&nbsp;<a href=\"https://en.wikipedia.org/wiki/List_of_best-selling_automobiles\" title=\"List of best-selling automobiles\">best-selling nameplate in the world</a>, surpassing the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Volkswagen_Beetle\" title=\"Volkswagen Beetle\">Volkswagen Beetle</a>.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-1\">[1]</a>&nbsp;Toyota reached the milestone of 50 million Corollas sold over twelve generations in 2021.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-50million-2\">[2]</a></p>\r\n\r\n<p>The name&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Corolla_(headgear)\" title=\"Corolla (headgear)\">Corolla</a></em>&nbsp;is part of Toyota&#39;s naming tradition of using names derived from the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Crown\" title=\"Toyota Crown\">Toyota Crown</a>&nbsp;for sedans, with&nbsp;<em>&quot;<a href=\"https://en.wiktionary.org/wiki/corolla\" title=\"wikt:corolla\">corolla</a>&quot;</em>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Latin\" title=\"Latin\">Latin</a>&nbsp;for &quot;small crown&quot;.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-3\">[3]</a>&nbsp;The Corolla has always been exclusive in Japan to&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla_Store\" title=\"Toyota Corolla Store\">Toyota Corolla Store</a></em>&nbsp;locations, and manufactured in Japan with a twin, called the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Sprinter\" title=\"Toyota Sprinter\">Toyota Sprinter</a>&nbsp;until 2000. From 2006 to 2018 in Japan and much of the world, and from 2018 to 2020 in Taiwan, the hatchback companion had been called the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Auris\" title=\"Toyota Auris\">Toyota Auris</a>.</p>\r\n\r\n<p>Early models were mostly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear-wheel_drive\" title=\"Rear-wheel drive\">rear-wheel drive</a>, while later models have been&nbsp;<a href=\"https://en.wikipedia.org/wiki/Front-wheel_drive\" title=\"Front-wheel drive\">front-wheel drive</a>.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Four-wheel_drive\" title=\"Four-wheel drive\">Four-wheel drive</a>&nbsp;versions have also been produced, and it has undergone several major redesigns. The Corolla&#39;s traditional competitors have been the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nissan_Sunny\" title=\"Nissan Sunny\">Nissan Sunny</a>, introduced the same year as the Corolla in Japan and the later&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nissan_Sentra\" title=\"Nissan Sentra\">Nissan Sentra</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subaru_Leone\" title=\"Subaru Leone\">Subaru Leone</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Honda_Civic\" title=\"Honda Civic\">Honda Civic</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mitsubishi_Lancer\" title=\"Mitsubishi Lancer\">Mitsubishi Lancer</a>. The Corolla&#39;s chassis designation code is &quot;E&quot;, as described in&nbsp;<a href=\"https://en.wikipedia.org/wiki/List_of_Toyota_model_codes\" title=\"List of Toyota model codes\">Toyota&#39;s chassis and engine codes.</a></p>",
+        "car_photo": "photos/2024/10/20/1900893299.jpg",
+        "car_photo_1": "photos/2024/10/20/1900893311.jpg",
+        "car_photo_2": "photos/2024/10/20/1900893319.jpg",
+        "car_photo_3": "photos/2024/10/20/1900893329.jpg",
+        "car_photo_4": "photos/2024/10/20/1900893391.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Alarm System,ParkAssist,Reversing Camera,Auto Start/Stop,Wind Deflector",
+        "body_style": "Sedan",
+        "engine": "1.8L 4-cylinder",
+        "transmission": "CVT",
+        "interior": "Grey Fabric",
+        "miles": 32,
+        "doors": "4",
+        "passengers": 3,
+        "vin_no": "2T1BURHE5JC765432",
+        "milage": 28,
+        "fuel_type": "Gasoline",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2024-10-20T08:25:39Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Sachin",
+        "last_name": "Kumar",
+        "car_id": 5,
+        "customer_need": "I'm interested in this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "Ghaziabad",
+        "state": "Uttar Pradesh",
+        "email": "bhanupratapbehera193@gmail.com",
+        "phone": "8249377635",
+        "message": "",
+        "user_id": 1,
+        "created_date": "2024-10-24T10:31:19.744Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Bhanu pratap",
+        "last_name": "Behera",
+        "car_id": 5,
+        "customer_need": "I'm interested in this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "Ghaziabad",
+        "state": "Uttar Pradesh",
+        "email": "admin@example.com",
+        "phone": "",
+        "message": "",
+        "user_id": 0,
+        "created_date": "2024-10-24T10:32:06.201Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Joey",
+        "last_name": "Tribianni",
+        "car_id": 1,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Dallas",
+        "state": "Texas",
+        "email": "Joey@gmail.com",
+        "phone": "",
+        "message": "",
+        "user_id": 2,
+        "created_date": "2024-10-24T10:49:49.778Z"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "google",
+        "provider_id": "",
+        "name": "Google Login",
+        "client_id": "1060929059465-qrb2tj40uh1sveaavv7ua3a89e46ppaa.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "http://localhost:8000/"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "bhanu_pratap"
+        ],
+        "provider": "google",
+        "uid": "105535669954527738743",
+        "last_login": "2024-10-23T19:43:08.653Z",
+        "date_joined": "2024-10-23T19:40:30.721Z",
+        "extra_data": {
+            "aud": "1060929059465-qrb2tj40uh1sveaavv7ua3a89e46ppaa.apps.googleusercontent.com",
+            "azp": "1060929059465-qrb2tj40uh1sveaavv7ua3a89e46ppaa.apps.googleusercontent.com",
+            "exp": 1729716188,
+            "iat": 1729712588,
+            "iss": "https://accounts.google.com",
+            "sub": "105535669954527738743",
+            "name": "Bhanu pratap Behera",
+            "at_hash": "zlEIveuqpeLP1ts62twxzQ",
+            "picture": "https://lh3.googleusercontent.com/a/ACg8ocI1dDI6dNhSFJ5uJlbCKHbvtcc0mDjHwwZ-yyLCO2V6WL5jAQ=s96-c",
+            "given_name": "Bhanu pratap",
+            "family_name": "Behera"
+        }
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-10-17T09:44:30.850Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-10-17T09:44:35.926Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-10-17T10:05:17.662Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": " Sachin Kumar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-10-17T10:07:43.929Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": " Sachin Kumar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-10-17T10:08:07.816Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": " Sachin Kumar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-10-17T17:07:59.149Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": " Sachin Kumar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-10-17T17:11:00.473Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": " Martin Smith",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-10-17T17:11:52.511Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": " Stone Carolyn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-10-17T17:12:48.093Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": " Brandon Miller",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-10-17T17:15:13.172Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": " Michelle Nelson",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-10-17T17:17:47.177Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": " Markus Cooper",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-10-18T08:19:51.193Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-10-18T08:25:40.274Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-10-18T08:29:48.231Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-10-18T08:33:03.248Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-10-20T08:25:35.045Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-10-20T08:30:06.213Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-10-20T08:35:11.748Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-10-20T08:35:11.753Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-10-23T19:17:25.470Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "http://localhost:8000/",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-10-23T19:31:01.375Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-10-24T10:28:34.684Z",
+        "user": [
+            "sachin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "sachin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+}
+]
