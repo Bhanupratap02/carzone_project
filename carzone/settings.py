@@ -29,7 +29,7 @@ DEBUG = config('DEBUG',cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(",")
 
-SITE_ID = 1
+SITE_ID = config('SITE_ID',cast=int)
 
 AUTHENTICATION_BACKENDS = [
 
