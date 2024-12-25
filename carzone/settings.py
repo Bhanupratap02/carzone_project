@@ -123,17 +123,20 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',  # MySQL backend
+#         'NAME': 'carzone_db',          # The name of your database
+#         'USER': 'sachin',         # Your MySQL username
+#         'PASSWORD': '123456',     # Your MySQL password
+#         'HOST': 'localhost',                   # Usually localhost
+#         'PORT': '3306',                        # The default MySQL port
+#     }
+# }
+# DATABASES['default'] = dj_database_url.parse(config('DATABASE_URL'))
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',  # MySQL backend
-        'NAME': 'carzone_db',          # The name of your database
-        'USER': 'sachin',         # Your MySQL username
-        'PASSWORD': '123456',     # Your MySQL password
-        'HOST': 'localhost',                   # Usually localhost
-        'PORT': '3306',                        # The default MySQL port
-    }
+    'default': dj_database_url.parse(config('DATABASE_URL'), conn_max_age=600, ssl_require=True)
 }
-DATABASES['default'] = dj_database_url.parse(config('DATABASE_URL'))
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
