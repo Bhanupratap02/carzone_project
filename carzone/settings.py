@@ -142,7 +142,7 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 # }
 # Replace the DATABASES section of your settings.py with this
 tmpPostgres = urlparse(config('DATABASE_URL'))
-
+print(tmpPostgres.path.replace('/', ''))
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
