@@ -134,8 +134,21 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 #     }
 # }
 # DATABASES['default'] = dj_database_url.parse(config('DATABASE_URL'))
+# DATABASES = {
+#     'default': dj_database_url.parse(config('DATABASE_URL'), conn_max_age=600, ssl_require=True)
+# }
+# Replace the DATABASES section of your settings.py with this
+tmpPostgres = dj_database_url.parse(config('DATABASE_URL'))
+
 DATABASES = {
-    'default': dj_database_url.parse(config('DATABASE_URL'), conn_max_age=600, ssl_require=True)
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': tmpPostgres.path.replace('/', ''),
+        'USER': tmpPostgres.username,
+        'PASSWORD': tmpPostgres.password,
+        'HOST': tmpPostgres.hostname,
+        'PORT': 5432,
+    }
 }
 
 # Password validation
